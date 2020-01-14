@@ -4,29 +4,33 @@ font-family: 'Kodchasan', sans-serif;
 */
 
 body {
-  font-family: 'Kodchasan', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: black;
 }
 h1 {
-  font-family: 'Grenze', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 p {
-
+  font-family: 'Montserrat', sans-serif;
 }
 
+div {
+  background-color: #A8C3FF;
+}
 
 
 .grid-demo {
-
+  background-color: #DEEFFF;
 }
+
 
 .grid-demo section {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
 
 .grid-demo div {
-  border: 1px solid black;
   padding: 20px;
 }
 
@@ -34,4 +38,5 @@ p {
   grid-column: 1/3;
   grid-row: 1/3;
   font-weight: 700;
+  background-color: #8EC2E8;
 }
