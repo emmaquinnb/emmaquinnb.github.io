@@ -1,0 +1,39 @@
+/*
+font-family: 'Grenze', serif;
+font-family: 'Kodchasan', sans-serif;
+*/
+
+body {
+  font-family: 'Kodchasan', sans-serif;
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+p {
+  color: white;
+}
+
+div {
+  background-color: #F0A899;
+}
+
+img {
+  width: 100%;
+  
+}
+
+.grid-demo {
+  background-color: #F6C2A2;
+}
+
+.grid-demo section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+
+}
+
+.grid-demo div {
+  padding: 20px;
+}
