@@ -2,16 +2,20 @@ h1 {
   font-family: 'Bowlby One SC', cursive;
   color: #461C10;
   padding: 30px;
+  border-bottom: 1px solid #F37A20;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #461C10;
 }
+
 p1{
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -26,20 +30,22 @@ div {
   background-color: #F3FAFE;
 }
 
-
 .homepage section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   padding: 20px;
-
 }
 
 .homepage div {
   padding: 50px;
+  border-right: 1px solid #F37A20;
+}
 
+a:link {
+  text-decoration: none;
 }
 
 .svg-text {
-  width: 300px;
+  width: 70%;
 }
