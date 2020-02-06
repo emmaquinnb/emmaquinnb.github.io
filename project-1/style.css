@@ -3,7 +3,7 @@ h1 {
   color: #461C10;
   padding: 30px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #F37A20;
+  border-bottom: 2px solid #FFBB00;
   margin-bottom: 0;
 }
 
@@ -46,7 +46,7 @@ div {
 }
 
 .homepage div {
-  border-right: 2px solid #F37A20;
+  border-right: 2px solid #FFBB00;
 }
 .homepage div:last-child{
   border-right:none;
