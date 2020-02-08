@@ -1,7 +1,35 @@
-svg {
-  width: 200px;
+p {
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+  color: turquoise;
+}
+
+div {
+  width: 100vw;
 }
 
 .sun {
-  
+  width: 200px;
+  position: absolute;
+  right: 40px;
+  bottom: 200px;
+  max-height: 90%;
 }
+
+.balloon {
+  width: 150px;
+  position: relative;
+  right: 700px;
+  bottom: -100px;
+  position: relative;
+  animation-name: balloon;
+  animation-duration: 10s;
+  animation-delay: -2s;
+}
+
+@keyframes balloon {
+  0%   {top:0px;}
+  25%  {top:50px;}
+  50%  {top:0px;}
+  75%  {top:50px;}
+  100% {top:0px;}
