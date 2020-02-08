@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+div {
+  background-color: orange;
+}
+
+
+.grid-demo {
+  background-color: grey;
+}
+
+
+.grid-demo section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-demo div {
+  padding: 20px;
+}
+
+.grid-demo .feature {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  font-weight: 700;
+  background-color: yellow;
