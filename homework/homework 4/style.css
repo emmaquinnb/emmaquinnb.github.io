@@ -8,12 +8,16 @@ div {
   width: 100vw;
 }
 
+.sun-circle {
+  fill: #ff9900;
+}
 .sun {
   width: 200px;
   position: absolute;
   right: 40px;
   bottom: 200px;
   max-height: 90%;
+  stroke: #ff0000;
 }
 
 .balloon {
