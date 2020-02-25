@@ -1,0 +1,45 @@
+/*main.scss*/
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Pangolin&display=swap");
+/*font-family: 'Pangolin', ;
+font-family: 'Luckiest Guy', ;*/
+/*partials.scss*/
+body {
+  font-family: "Pangolin", helvetica; }
+
+h1, h2, h2, h3, h4 {
+  color: #094A70;
+  font-family: "Luckiest Guy", helvetica; }
+
+h1, h2 {
+  font-size: 60px;
+  color: red; }
+
+h2 {
+  font-size: 48px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 24px; }
+
+p {
+  font-size: 20px; }
+
+.content {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  padding: 60px;
+  margin: 80px;
+  border: 1px solid black; }
+  .content p {
+    font-size: 18px; }
+  .content a {
+    text-decoration: none;
+    color: #FF969A; }
+    .content a:hover {
+      text-decoration: line-through;
+      color: #96fffb; }
+
+/*# sourceMappingURL=style.css.map */
